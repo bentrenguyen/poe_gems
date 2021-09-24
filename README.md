@@ -6,7 +6,7 @@
   <p align="center">
     project_description
     <br />
-    <a href="https://github.com/github_username/repo_name"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/bentrenguyen/poe_gems"><strong>Explore the docs »</strong></a>
   </p>
 </p>
 
@@ -26,7 +26,6 @@
       <a href="#getting-started">Getting Started</a>
       <ul>
         <li><a href="#prerequisites">Prerequisites</a></li>
-        <li><a href="#installation">Installation</a></li>
       </ul>
     </li>
     <li><a href="#usage">Usage</a></li>
@@ -38,7 +37,7 @@
 
 <!-- ABOUT THE PROJECT -->
 ## About The Project
-
+A Path of Exile tool to more easily locate and buy skill gems from Lilly. 
 
 
 
@@ -57,17 +56,18 @@ To get a local copy up and running follow these simple steps.
 ### Prerequisites
 
 This is an example of how to list things you need to use the software and how to install them.
-* npm
+* pip
   ```sh
-  npm install npm@latest -g
+  pip install pandas
+  pip install pobapi
   ```
 
 <!-- USAGE EXAMPLES -->
 ## Usage
 
-Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
+Run poe_gems.py and enter in your Path of Building pastebin. You will be returned a series of strings to copy/paste into the vendor window, separated by tab (Active Strength Gems, Support Dex Gems, etc.)
 
-_For more examples, please refer to the [Documentation](https://example.com)_
+![Screenshot demo](images/demo1.png)
 
 <!-- ACKNOWLEDGEMENTS -->
 ## Acknowledgements
